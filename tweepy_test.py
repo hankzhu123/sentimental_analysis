@@ -4,10 +4,7 @@ import matplotlib.pyplot as plt
 
 print('This is the start')
 # Setting up the authentication
-CONSUMER_KEY = '8DQUyFuuPYXC5kp4saHo9R1bi'
-CONSUMER_SECRET = 'C2l5zL96EOZfCD8OIgxsM88GNDhhRpmG3wBuHIHjmoz20BHbK2'
-ACCESS_KEY = '1274589180941623297-ptRVO0ovcABOBV2HR5CpXmIczrZsmp'
-ACCESS_SECRET = 'J1Du1Wc4Cw6PKl7lYKY5fh1wUhh5cMwEofqDVwo3uvhha'
+
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
